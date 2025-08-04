@@ -1,4 +1,4 @@
-# 📚 Student Management CLI with Node.js & MongoDB
+# Student Management CLI with Node.js & MongoDB
 
 A simple command-line application to manage student records using **Node.js**, **Mongoose**, and **MongoDB**.
 
@@ -6,17 +6,17 @@ This tool lets you perform full CRUD operations directly from the terminal — p
 
 ---
 
-## 🚀 Features
+##  Features
 
-- ✅ Insert new student records  
-- 📄 View all students  
-- ✏️ Update student details by ID  
-- 🗑️ Delete students by ID  
-- 👋 Graceful exit and MongoDB disconnect
+-  Insert new student records  
+-  View all students  
+-  Update student details by ID  
+-  Delete students by ID  
+-  Graceful exit and MongoDB disconnect
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - [Node.js](https://nodejs.org/)
 - [MongoDB](https://www.mongodb.com/)
@@ -25,13 +25,15 @@ This tool lets you perform full CRUD operations directly from the terminal — p
 
 ---
 
-## 📦 Installation & Setup
+## Installation & Setup
 
 ### 1. Clone this repository
 
-```bash
+bash
 git clone https://github.com/bbalasubramani/Node_MongoDB_CLI.git
 cd Node_MongoDB_CLI
+
+---
 
 ## Install Dependencies
 
@@ -39,11 +41,15 @@ npm install node
 
 npm install mongoose
 
+---
+
 ## Run the app(via vscode)
 
 node main.js
 
-## 📋 Sample Menu UI
+---
+
+## Sample Menu UI
 
 --- Student Management CLI ---
 1. Insert Student
@@ -54,6 +60,8 @@ node main.js
 -------------------------------
 Choose an option (1-5):
 
+---
+
 ## Example Student object
 {
   "name": "Alice",
@@ -61,15 +69,21 @@ Choose an option (1-5):
   "course": "Computer Science"
 }
 
-##📝 License
+---
+
+## License
 
 This project is licensed under the MIT License.
 
-##🤝 Contributing
+---
+
+## Contributing
 
 Pull requests are welcome! If you'd like to improve the CLI or add features, feel free to fork the repo and submit a PR.
 
-##🙋‍♂️ Author
+---
+
+## Author
 
 Bala Subramani
 📧 bala026b@gmail.com
